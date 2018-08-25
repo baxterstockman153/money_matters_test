@@ -1,0 +1,6 @@
+server/node_modules
+server/client/node_modules
+server/config/dev.js
+server/tests/categories.js
+server/package-lock.json
+server/client/package-lock.json
