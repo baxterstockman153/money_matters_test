@@ -12,4 +12,10 @@ After installation, copy `prod.js` in `server/config` and name it `dev.js`.
 
 Then fill in all variables:
 
-`googleClientID: [your GOOGLE_CLIENT_ID from your google API account], googleClientSecret: [your GOOGLE_CLIENT_SECRET from your google API account], mongoURI: [ your MONGO_URI, i.e. mongodb://<user>:<password>@<database>.mlab.com:<portnr>], cookieKey: process.env.COOKIE_KEY`
+`googleClientID: [your GOOGLE_CLIENT_ID from your google API account],
+
+googleClientSecret: [your GOOGLE_CLIENT_SECRET from your google API account],
+
+mongoURI: [ your MONGO_URI, i.e. mongodb://<user>:<password>@<database>.mlab.com:<portnr>],
+
+cookieKey: process.env.COOKIE_KEY`
