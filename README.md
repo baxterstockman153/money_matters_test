@@ -1,12 +1,12 @@
 # money_matters_test
 
-##Installation:
+## Installation:
 
 After cloning the repository run the installation:
 
 `cd money_matters/server && npm i && cd client && npm i`
 
-##dev.js
+## dev.js
 
 After installation, copy `prod.js` in `server/config` and name it `dev.js`.
 
