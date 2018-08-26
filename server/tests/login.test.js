@@ -18,7 +18,7 @@ describe("When logged in", async () => {
     await page.login();
   });
 
-  test.only("can see the correct redirect page", async () => {
+  test("can see the correct redirect page", async () => {
     const text = await page.$eval("h1", el => el.innerHTML);
     expect(text).toEqual(landingPageText);
   });
