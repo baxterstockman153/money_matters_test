@@ -11,7 +11,10 @@ require("./models/Category");
 require("./models/Expense");
 require("./services/passport");
 
-mongoose.connect(keys.mongoURI);
+mongoose.connect(
+  keys.mongoURI,
+  { useNewUrlParser: true }
+);
 
 const app = express();
 
@@ -46,5 +49,3 @@ if (process.env.NODE_ENV === "production") {
 const PORT = process.env.PORT || 3001;
 app.listen(PORT);
 console.log("listenat", PORT);
-
-// module.exports = app;
